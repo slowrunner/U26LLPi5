@@ -1,5 +1,5 @@
 # logs/
 
-contains:
-life.log
-life.log.bak
+contains:  
+life.log  
+life.log.bak  
