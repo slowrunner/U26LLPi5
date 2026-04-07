@@ -1,0 +1,108 @@
+#!/usr/bin/env python3
+#
+# cleanlifelog.py
+#
+# remove any null chars from a sudden power loss
+#
+# save life.log to life.log.timestamp
+# read life.log file into list
+# starting at next to last line
+# loop until "boot logged line"
+#    if line is an execution log line: delete it
+#    else point to previous line
+# write out modified file
+
+import datetime
+from shutil import copyfile
+import argparse
+
+
+dtNow = datetime.datetime.now()
+
+HOME = "U26LLPi5"
+USERNAME = "ubuntu"
+
+inFileName = "/home/"+USERNAME+"/"+HOME+"/logs/life.log"
+outFileName = "/home/"+USERNAME+"/"+HOME+"/logs/life.log"
+bkupFileName = "/home/"+USERNAME+"/"+HOME+"/logs/life.log.bak"
+
+
+# ARGUMENT PARSER
+ap = argparse.ArgumentParser()
+# ap.add_argument("-f", "--file", required=True, help="path to input file")
+# ap.add_argument("-n", "--num", type=int, default=5, help="number")
+ap.add_argument("-p", "--previous", default=False, action='store_true', help="clean previous boot session")
+args = vars(ap.parse_args())
+# print("Started with args:",args)
+clean_previous_session = args['previous']
+
+
+
+changed = False
+
+with open(inFileName) as fIn:
+    lineList = fIn.readlines()
+print("Read in {}".format(inFileName))
+lines = len(lineList)
+lineIdx = lines - 1
+last = -1
+print("lines: {}".format(lines))
+print("lastline: {}".format(lineList[last]))
+bootlogline = "----- boot -----"
+executionlogline = "dEmain execution:"
+nullchar = '\x00'
+
+# print("--old--")
+
+new_lineList = []
+# print(lineList)
+
+for s in lineList:
+  if nullchar in s:
+    new_lineList.append(s.replace(nullchar,""))
+    changed = True
+    print("Removed null chars from life.log\n")
+  else:
+    new_lineList.append(s)
+# print("--new--")
+# print(new_lineList)
+# print("----")
+
+if (changed == True):
+  lineList = new_lineList
+
+
+if (clean_previous_session == True):
+    # Find last boot log line
+    while (bootlogline not in lineList[lineIdx]):
+        lineIdx -=1
+    lineIdx -=1
+
+# Find last execution log line before the last boot log line
+while ((bootlogline not in lineList[lineIdx]) and (executionlogline not in lineList[lineIdx])):
+    lineIdx -= 1
+
+# leave the last execution log line
+if (executionlogline in lineList[lineIdx]):
+    lineIdx -= 1
+
+while (bootlogline not in lineList[lineIdx]):
+    # print("Checking line {}".format(lineIdx+1))
+    if (executionlogline in lineList[lineIdx]):
+        print("removing: {}".format(lineList[lineIdx]))
+        del lineList[lineIdx]
+        changed = True
+    lineIdx -= 1
+
+if changed == True:
+    # backup the original file before rewriting with changes
+    copyfile(inFileName, bkupFileName)
+    with open(outFileName,'w') as fOut:
+        fOut.writelines(lineList)
+
+    print("Wrote cleaned {}".format(outFileName))
+    lines = len(lineList)
+    print("lines: {}".format(lines))
+    print("lastline: {}".format(lineList[last]))
+else:
+    print("File not changed")

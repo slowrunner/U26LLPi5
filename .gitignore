@@ -1,0 +1,11 @@
+*.log
+devel/
+logs/
+bin/
+build/
+lib/
+install/
+*.pyc
+log/
+nohup.out
+
