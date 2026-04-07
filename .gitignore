@@ -8,4 +8,4 @@ install/
 *.pyc
 log/
 nohup.out
-
+*.bak
