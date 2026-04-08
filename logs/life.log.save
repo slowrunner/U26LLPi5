@@ -8,4 +8,12 @@
 2026-04-07 12:18|lifelogger.dEmain execution: 1.75
 2026-04-07 12:19|[logMainenance.py.main]** performing bkup_2026-04-07  **
 2026-04-07 13:05|------------ boot ------------
-2026-04-07 19:47|lifelogger.dEmain execution: 6.70
+2026-04-08 01:29|lifelogger.dEmain execution: 12.40
+2026-04-08 01:32|------------ boot ------------
+2026-04-08 08:02|lifelogger.dEmain execution: 6.50
+2026-04-08 08:06|------------ boot ------------
+2026-04-08 08:12|lifelogger.dEmain execution: 0.10
+2026-04-08 08:16|------------ boot ------------
+2026-04-08 08:58|lifelogger.dEmain execution: 0.70
+2026-04-08 09:01|lifelogger.dEmain execution: 0.75
+2026-04-08 09:01|[logMainenance.py.main]** shutting down to rebuild sdccard **
