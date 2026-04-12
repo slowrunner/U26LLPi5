@@ -5,7 +5,7 @@ Raspberry Pi 5 Setup
 Setup 64-bit Ubuntu 26.04 Desktop Resolute Racoon
 
 
-As Of: 9 Apr 2026
+As Of: 11 Apr 2026
 
 Ubuntu 26.04 Desktop for Raspberry Pi Image Required (not in RPi-imager yet)
 https://cdimage.ubuntu.com/daily-preinstalled/current/resolute-preinstalled-desktop-arm64+raspi.img.xz
@@ -19,17 +19,22 @@ v2.0.7
 **Write Ubuntu 26.04 Desktop to SDcard with Raspberry Pi Imager**
   - Choose OS -> Other General Purpose (or Custom) -> Ubuntu 26.04 Desktop
   - boot with keyboard, mouse, display
-  - user: ubuntu  machine: u26llpi5 , WiFi connect
-  - [Did not work] WiFi Icon->Settings->System->SecureShell->enable
 
 
 
 
 ==== First Boot ====
+  - user: ubuntu  machine: u26llpi5 , WiFi connect
+  - [Did not work] WiFi Icon->Settings->System->SecureShell->enable
 
 === Disable IPv6 ===
 
 - Settings->WiFi->IPv6->Disable
+
+=== UPDATE AND UPGRADE ===
+
+sudo apt update && sudo apt upgrade -y
+
 
 === 
 uname -a
@@ -67,13 +72,6 @@ ssh ubuntu@10.0.0.xxx
   settings->System->RemoteLogin
 
 
-**Update OS** 
-```
-$ sudo apt update && sudo apt upgrade -y
-
-$ sudo reboot
-```
-
 ==== Check Disk Space ====
 ubuntu@u26llpi5:~/U26LLPi5$ df
 Filesystem     1K-blocks    Used Available Use% Mounted on
@@ -109,9 +107,12 @@ git clone https://github.com/slowrunner/U26LLPi5.git
 cd U26LLPi5
 
 === Configure RTC Charging ===
+
+sudo nano /boot/firmware/config.txt
+
 add:
    dtparam=rtc_bbat_vchg=3000000
-to end of /boot/firmware/config.txt after [all]
+to after [all]
 
 cd config
 diff config.txt /boot/firmware/config.txt
