@@ -139,6 +139,8 @@ paste lines to end of file, save
 
 cd ../logs
 cp life.log.sav life.log
+sudo chmod 666 life.log
+sudo chmod 666 life.log.bak
 
 sudo reboot
 
