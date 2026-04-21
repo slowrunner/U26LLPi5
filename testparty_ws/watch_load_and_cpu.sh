@@ -3,6 +3,7 @@
 # loop printing 1 minute average load and total cpu usage
 # /proc/loadavg is updated every 5 seconds
 # uses "100 - idle_time" from vmstat for total cpu usage
+# uses bc - missing: sudo apt install util-linux-extra
 
 while [ 1 ]
 do
