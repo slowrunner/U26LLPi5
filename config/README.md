@@ -37,6 +37,7 @@ sudo apt update && sudo apt upgrade -y
 
 
 === 
+```
 uname -a
 Linux u26llpi5 7.0.0-1004-raspi #4-Ubuntu SMP PREEMPT_DYNAMIC Wed Mar 18 06:27:33 UTC 2026 aarch64 GNU/Linux
 
@@ -49,18 +50,18 @@ VERSION="26.04 (Resolute Raccoon)"
 VERSION_CODENAME=resolute
 ID=ubuntu
 ID_LIKE=debian
-
+```
 
 === Enable SSH =======
-
+```
  Setup SSH:
   sudo apt install openssh-server
   sudo systemctl status ssh
   sudo systemctl start ssh
   sudo systemmctl enable ssh
-
-Check: ssh-keygen 10.0.0.xxx 
-ssh ubuntu@10.0.0.xxx
+```
+Check: ssh-keygen 10.0.0.xxx  
+ssh ubuntu@10.0.0.xxx  
 
    - (If needed:  ssh-keygen -R X.X.X.X  , then try ssh again)
    - pw: your password
@@ -72,7 +73,8 @@ ssh ubuntu@10.0.0.xxx
   settings->System->RemoteLogin
 
 
-==== Check Disk Space ====
+==== Check Disk Space ====  
+```
 ubuntu@u26llpi5:~/U26LLPi5$ df
 Filesystem     1K-blocks    Used Available Use% Mounted on
 tmpfs             814092    2592    811500   1% /run
@@ -83,31 +85,31 @@ none                1024       0      1024   0% /run/credentials/systemd-resolve
 tmpfs            2035232       8   2035224   1% /tmp
 /dev/mmcblk0p1    516204  163980    352225  32% /boot/firmware
 tmpfs             407044      76    406968   1% /run/user/1000
-
+```
 
 ===== Check memory =======
-
+```
 ubuntu@u26llpi5:~/U26LLPi5$ free -h
                total        used        free      shared  buff/cache   available
 Mem:           3.9Gi       2.2Gi       804Mi       407Mi       1.4Gi       1.7Gi
 Swap:          1.0Gi          0B       1.0Gi
+```
 
 
+======= Bring Down Git Repo =======  
+On GitHub, navigate to the main page of the repository.  
 
-======= Bring Down Git Repo =======
-On GitHub, navigate to the main page of the repository.
-
-Code button next to the repository name, click Clone HTTPS, Click copy
-
+Code button next to the repository name, click Clone HTTPS, Click copy  
+```
 cd ~
 sudo apt install git
 
 git clone https://github.com/slowrunner/U26LLPi5.git
 
 cd U26LLPi5
-
+```
 === Configure RTC Charging ===
-
+```
 sudo nano /boot/firmware/config.txt
 
 add:
@@ -116,22 +118,24 @@ to after [all]
 
 cd config
 diff config.txt /boot/firmware/config.txt
-
+```
 
 After reboot:
 
 Check:
+```
 ubuntu@u26llpi5:~$ cat /sys/class/rtc/rtc0/charging_voltage
 3000000
+```
 
 === configure shortcut to ROS2 workspace ===
-
+```
 cd config
 cp tilde_tp.sh ~/tp.sh
-
+```
 
 === configure life.log ====
-
+```
 more config/crontab-e (copy the lines to paste buffer)
 sudo crontab -e
 1 for nano
@@ -143,9 +147,9 @@ sudo chmod 666 life.log
 sudo chmod 666 life.log.bak
 
 sudo reboot
-
+```
 ==== Configure git credentials =======
-
+```
 cd ~/U26LLPi5
 
 git config --global user.name "slowrunner"
@@ -155,20 +159,20 @@ git config --list
 
 edit README.md
 add/commit/push (paste token)
-
+```
 
 === CONFIGURE PASSWORD-LESS SUDO
-
+```
 sudo nano /etc/sudoers
 
 make sudo group look like:
 # Allow members of group sudo to execute any command
 %sudo	ALL=(ALL:ALL) NOPASSWD: ALL
-
+```
 === Install htop
-
+```
 sudo snap install htop
-
+```
 
 
 === [Do Not Perform Yet] To disable boot to desktop:
@@ -177,12 +181,12 @@ sudo snap install htop
 (to re-enable sudo systemctl set-default graphical.target)
 
 Memory without desktop:
-
+```
 $ free -h
                total        used        free      shared  buff/cache   available
 Mem:           3.9Gi       368Mi       3.1Gi       3.8Mi       490Mi       3.5Gi
 Swap:          1.0Gi          0B       1.0Gi
-
+```
 
 === [Not Yet]  Install ROS 2 Lyrical Luth Desktop ====
 
