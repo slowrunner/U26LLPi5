@@ -15,6 +15,7 @@
 
 homedir='U26LLPi5'
 username='ubuntu'
+FIRSTBOOT='April 2026'
 
 echo "(Cleaning life.log first)"
 /home/$username/$homedir/plib/cleanlifelog.py
@@ -28,7 +29,7 @@ totalLife=`(echo "scale=1; ($totalAwake + $totalNaps)" | bc)`
 echo "*** ${homedir} TOTAL LIFE STATISTICS ***"
 echo "Total Awake:  " $totalAwake " hrs"
 echo "Total Naps:    " $totalNaps " hrs"
-echo "Total Life:   " $totalLife " hrs (since August 2025)"
+echo "Total Life:   " $totalLife " hrs (since " $FIRSTBOOT ")"
 booted=`(grep -c "\- boot \-" $fn)`
 echo "Sessions (boot): " `(grep -c "\- boot \-" $fn)`
 aveSession=`(echo "scale=1; ($totalAwake / $booted)" | bc -l)`
