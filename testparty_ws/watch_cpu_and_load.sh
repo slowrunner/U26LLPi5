@@ -22,6 +22,8 @@ do
   echo -e "$d total cpu usage: $cpu% of RPi 5 CPU"
   echo " "
   free -h
+  echo " "
+  df /
   echo " *** "
   echo " "
   sleep 5
