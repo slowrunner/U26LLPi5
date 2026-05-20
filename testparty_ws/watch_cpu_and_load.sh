@@ -23,7 +23,9 @@ do
   echo " "
   free -h
   echo " "
-  df /
+  df -h /
+  echo " "
+  sudo vcgencmd measure_temp && sudo vcgencmd measure_clock arm && sudo vcgencmd get_throttled; 
   echo " *** "
   echo " "
   sleep 5
