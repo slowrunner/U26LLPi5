@@ -2,9 +2,9 @@
 
 
 
-cd ~/U26LLPi5/testparty_ws
+cd ~/U26LLPi5/ros2_ws
 
-echo "Cleaning testparty_ws (log, install, build)"
+echo "Cleaning ros2_ws (log, install, build)"
 
 rm -rf log
 rm -rf install

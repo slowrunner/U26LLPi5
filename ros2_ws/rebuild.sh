@@ -3,8 +3,8 @@
 echo -e "\n** SOURCE .bashrc"
 . ~/.bashrc
 
-echo -e "** CHANGE to ~/U26LLPi5/testparty_ws"
-cd ~/U26LLPi5/testparty_ws
+echo -e "** CHANGE to ~/U26LLPi5/ros2_ws"
+cd ~/U26LLPi5/ros2_ws
 
 echo -e "** CHECK ROS DEPENDENCIES **"
 rosdep install -i --from-path src
