@@ -1,0 +1,19 @@
+osiris_node:
+  ros__parameters:
+    # Configure the graph collector debounce interval (set to 0 to disable debouncing and send updates immediately but can be heavy on the CPU)
+    graph_debounce_interval: 1.0  # default: 1s
+
+    # Enable TF tree collection (set true to monitor transforms)
+    tf_tree_enabled: true # default: false
+    tf_tree_poll_interval: 0.2 # seconds between TF tree polls (default: 0.2s)
+
+    # Enable ros2_control controller/hardware monitoring
+    ros2_control_enabled: true # default: false
+    ros2_control_poll_interval: 2.0 # seconds between ros2_control polls (default: 2s)
+
+    # Enable BT.CPP/Groot2 tree monitoring (for btcpp_ros2 executors only — NOT needed for nav2,
+    # which publishes /behavior_tree_log and is monitored automatically)
+    bt_collector_enabled: true # default: false
+    bt_host: "127.0.0.1" # default: 127.0.0.1
+    bt_server_port: 1667 # default: 1667
+    bt_publisher_port: 1668 # default: 1668
