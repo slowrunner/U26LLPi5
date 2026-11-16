@@ -1,0 +1,26 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "irobot_create_msgs/action/DriveArc_Feedback",
+      "fields": [
+        {
+          "name": "remaining_angle_travel",
+          "type": {
+            "type_id": 10,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "irobot_create_msgs/action/DriveArc_Feedback",
+      "hash_string": "RIHS01_bc914455c4a34c52a32091b12a905bba170178f81072bb957a3971a33a9ca156"
+    }
+  ]
+}

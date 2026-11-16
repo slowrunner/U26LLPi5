@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_files("/home/ubuntu/U26LLPi5/ros2_ws/src/create3_examples/create3_lidar_slam" FILES "/home/ubuntu/U26LLPi5/ros2_ws/src/create3_examples/create3_lidar_slam/package.xml" "DESTINATION" "share/create3_lidar_slam")

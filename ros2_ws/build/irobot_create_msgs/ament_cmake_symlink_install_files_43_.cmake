@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_files("/home/ubuntu/U26LLPi5/ros2_ws/src/irobot_create_msgs" FILES "/home/ubuntu/U26LLPi5/ros2_ws/build/irobot_create_msgs/rosidl_adapter/irobot_create_msgs/action/RotateAngle.idl" "DESTINATION" "share/irobot_create_msgs/action")

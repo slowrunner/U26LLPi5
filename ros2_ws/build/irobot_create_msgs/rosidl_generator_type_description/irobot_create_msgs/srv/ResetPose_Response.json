@@ -1,0 +1,26 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "irobot_create_msgs/srv/ResetPose_Response",
+      "fields": [
+        {
+          "name": "structure_needs_at_least_one_member",
+          "type": {
+            "type_id": 3,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "irobot_create_msgs/srv/ResetPose_Response",
+      "hash_string": "RIHS01_238507baa994ba607c52a4de59817165270e464fa50ec7b406c24dd883e08929"
+    }
+  ]
+}

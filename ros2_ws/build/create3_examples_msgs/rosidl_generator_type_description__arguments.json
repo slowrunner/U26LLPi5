@@ -1,0 +1,13 @@
+{
+  "package_name": "create3_examples_msgs",
+  "output_dir": "/home/ubuntu/U26LLPi5/ros2_ws/build/create3_examples_msgs/rosidl_generator_type_description/create3_examples_msgs",
+  "idl_tuples": [
+    "/home/ubuntu/U26LLPi5/ros2_ws/build/create3_examples_msgs/rosidl_adapter/create3_examples_msgs:action/Coverage.idl"
+  ],
+  "include_paths": [
+    "action_msgs:/opt/ros/lyrical/share/action_msgs/",
+    "builtin_interfaces:/opt/ros/lyrical/share/builtin_interfaces/",
+    "unique_identifier_msgs:/opt/ros/lyrical/share/unique_identifier_msgs/",
+    "service_msgs:/opt/ros/lyrical/share/service_msgs/"
+  ]
+}

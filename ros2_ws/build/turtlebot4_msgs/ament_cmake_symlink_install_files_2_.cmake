@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_files("/home/ubuntu/U26LLPi5/ros2_ws/src/turtlebot4/turtlebot4_msgs" FILES "/home/ubuntu/U26LLPi5/ros2_ws/build/turtlebot4_msgs/rosidl_generator_type_description/turtlebot4_msgs/msg/UserButton.json" "DESTINATION" "share/turtlebot4_msgs/msg")

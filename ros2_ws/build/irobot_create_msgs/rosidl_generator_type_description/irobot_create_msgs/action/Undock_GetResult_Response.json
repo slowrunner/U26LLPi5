@@ -1,0 +1,56 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "irobot_create_msgs/action/Undock_GetResult_Response",
+      "fields": [
+        {
+          "name": "status",
+          "type": {
+            "type_id": 2,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        },
+        {
+          "name": "result",
+          "type": {
+            "type_id": 1,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": "irobot_create_msgs/action/Undock_Result"
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": [
+      {
+        "type_name": "irobot_create_msgs/action/Undock_Result",
+        "fields": [
+          {
+            "name": "is_docked",
+            "type": {
+              "type_id": 15,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          }
+        ]
+      }
+    ]
+  },
+  "type_hashes": [
+    {
+      "type_name": "irobot_create_msgs/action/Undock_GetResult_Response",
+      "hash_string": "RIHS01_04f5d2bd001ba8249db757edf4e98b0962fb18e5b193ef4ada40b9b0586e38c6"
+    },
+    {
+      "type_name": "irobot_create_msgs/action/Undock_Result",
+      "hash_string": "RIHS01_2fdddf2038caa00e303530299908adaf02a7a7c977449d4396c066960d65082d"
+    }
+  ]
+}

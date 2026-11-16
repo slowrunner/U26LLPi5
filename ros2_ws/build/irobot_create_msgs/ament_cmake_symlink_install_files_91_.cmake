@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_files("/home/ubuntu/U26LLPi5/ros2_ws/src/irobot_create_msgs" FILES "/home/ubuntu/U26LLPi5/ros2_ws/src/irobot_create_msgs/msg/SlipStatus.msg" "DESTINATION" "share/irobot_create_msgs/msg")

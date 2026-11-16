@@ -1,0 +1,26 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "irobot_create_msgs/action/Dock_Goal",
+      "fields": [
+        {
+          "name": "structure_needs_at_least_one_member",
+          "type": {
+            "type_id": 3,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "irobot_create_msgs/action/Dock_Goal",
+      "hash_string": "RIHS01_9ba335f70dd50fcc59953ee075f7cad842ff34a8f56206574fed8f2e7319fc52"
+    }
+  ]
+}

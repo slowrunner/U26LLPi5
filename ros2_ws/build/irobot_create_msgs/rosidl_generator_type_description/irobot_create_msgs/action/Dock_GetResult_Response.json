@@ -1,0 +1,56 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "irobot_create_msgs/action/Dock_GetResult_Response",
+      "fields": [
+        {
+          "name": "status",
+          "type": {
+            "type_id": 2,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        },
+        {
+          "name": "result",
+          "type": {
+            "type_id": 1,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": "irobot_create_msgs/action/Dock_Result"
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": [
+      {
+        "type_name": "irobot_create_msgs/action/Dock_Result",
+        "fields": [
+          {
+            "name": "is_docked",
+            "type": {
+              "type_id": 15,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          }
+        ]
+      }
+    ]
+  },
+  "type_hashes": [
+    {
+      "type_name": "irobot_create_msgs/action/Dock_GetResult_Response",
+      "hash_string": "RIHS01_2c2608d8cc77cf44f140dfcc3ebe2c32a9ed942c41972c5b1a86dc65448bd80f"
+    },
+    {
+      "type_name": "irobot_create_msgs/action/Dock_Result",
+      "hash_string": "RIHS01_faf8ce999eeb3971347126fbd314271a37ebc4a8b32390ee1569e3a63f48d951"
+    }
+  ]
+}

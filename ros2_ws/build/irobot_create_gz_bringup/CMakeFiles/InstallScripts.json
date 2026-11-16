@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/ubuntu/U26LLPi5/ros2_ws/build/irobot_create_gz_bringup/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

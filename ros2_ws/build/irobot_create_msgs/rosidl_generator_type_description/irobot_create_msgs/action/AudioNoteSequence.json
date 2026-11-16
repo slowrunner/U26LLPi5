@@ -1,0 +1,688 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "irobot_create_msgs/action/AudioNoteSequence",
+      "fields": [
+        {
+          "name": "goal",
+          "type": {
+            "type_id": 1,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": "irobot_create_msgs/action/AudioNoteSequence_Goal"
+          },
+          "default_value": ""
+        },
+        {
+          "name": "result",
+          "type": {
+            "type_id": 1,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": "irobot_create_msgs/action/AudioNoteSequence_Result"
+          },
+          "default_value": ""
+        },
+        {
+          "name": "feedback",
+          "type": {
+            "type_id": 1,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": "irobot_create_msgs/action/AudioNoteSequence_Feedback"
+          },
+          "default_value": ""
+        },
+        {
+          "name": "send_goal_service",
+          "type": {
+            "type_id": 1,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": "irobot_create_msgs/action/AudioNoteSequence_SendGoal"
+          },
+          "default_value": ""
+        },
+        {
+          "name": "get_result_service",
+          "type": {
+            "type_id": 1,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": "irobot_create_msgs/action/AudioNoteSequence_GetResult"
+          },
+          "default_value": ""
+        },
+        {
+          "name": "feedback_message",
+          "type": {
+            "type_id": 1,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": "irobot_create_msgs/action/AudioNoteSequence_FeedbackMessage"
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": [
+      {
+        "type_name": "builtin_interfaces/msg/Duration",
+        "fields": [
+          {
+            "name": "sec",
+            "type": {
+              "type_id": 6,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "nanosec",
+            "type": {
+              "type_id": 7,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "builtin_interfaces/msg/Time",
+        "fields": [
+          {
+            "name": "sec",
+            "type": {
+              "type_id": 6,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "nanosec",
+            "type": {
+              "type_id": 7,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "irobot_create_msgs/action/AudioNoteSequence_Feedback",
+        "fields": [
+          {
+            "name": "iterations_played",
+            "type": {
+              "type_id": 6,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "current_runtime",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "builtin_interfaces/msg/Duration"
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "irobot_create_msgs/action/AudioNoteSequence_FeedbackMessage",
+        "fields": [
+          {
+            "name": "goal_id",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "unique_identifier_msgs/msg/UUID"
+            },
+            "default_value": ""
+          },
+          {
+            "name": "feedback",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "irobot_create_msgs/action/AudioNoteSequence_Feedback"
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "irobot_create_msgs/action/AudioNoteSequence_GetResult",
+        "fields": [
+          {
+            "name": "request_message",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "irobot_create_msgs/action/AudioNoteSequence_GetResult_Request"
+            },
+            "default_value": ""
+          },
+          {
+            "name": "response_message",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "irobot_create_msgs/action/AudioNoteSequence_GetResult_Response"
+            },
+            "default_value": ""
+          },
+          {
+            "name": "event_message",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "irobot_create_msgs/action/AudioNoteSequence_GetResult_Event"
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "irobot_create_msgs/action/AudioNoteSequence_GetResult_Event",
+        "fields": [
+          {
+            "name": "info",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "service_msgs/msg/ServiceEventInfo"
+            },
+            "default_value": ""
+          },
+          {
+            "name": "request",
+            "type": {
+              "type_id": 97,
+              "capacity": 1,
+              "string_capacity": 0,
+              "nested_type_name": "irobot_create_msgs/action/AudioNoteSequence_GetResult_Request"
+            },
+            "default_value": ""
+          },
+          {
+            "name": "response",
+            "type": {
+              "type_id": 97,
+              "capacity": 1,
+              "string_capacity": 0,
+              "nested_type_name": "irobot_create_msgs/action/AudioNoteSequence_GetResult_Response"
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "irobot_create_msgs/action/AudioNoteSequence_GetResult_Request",
+        "fields": [
+          {
+            "name": "goal_id",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "unique_identifier_msgs/msg/UUID"
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "irobot_create_msgs/action/AudioNoteSequence_GetResult_Response",
+        "fields": [
+          {
+            "name": "status",
+            "type": {
+              "type_id": 2,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "result",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "irobot_create_msgs/action/AudioNoteSequence_Result"
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "irobot_create_msgs/action/AudioNoteSequence_Goal",
+        "fields": [
+          {
+            "name": "iterations",
+            "type": {
+              "type_id": 6,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": "1"
+          },
+          {
+            "name": "note_sequence",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "irobot_create_msgs/msg/AudioNoteVector"
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "irobot_create_msgs/action/AudioNoteSequence_Result",
+        "fields": [
+          {
+            "name": "complete",
+            "type": {
+              "type_id": 15,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "iterations_played",
+            "type": {
+              "type_id": 6,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "runtime",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "builtin_interfaces/msg/Duration"
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "irobot_create_msgs/action/AudioNoteSequence_SendGoal",
+        "fields": [
+          {
+            "name": "request_message",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "irobot_create_msgs/action/AudioNoteSequence_SendGoal_Request"
+            },
+            "default_value": ""
+          },
+          {
+            "name": "response_message",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "irobot_create_msgs/action/AudioNoteSequence_SendGoal_Response"
+            },
+            "default_value": ""
+          },
+          {
+            "name": "event_message",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "irobot_create_msgs/action/AudioNoteSequence_SendGoal_Event"
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "irobot_create_msgs/action/AudioNoteSequence_SendGoal_Event",
+        "fields": [
+          {
+            "name": "info",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "service_msgs/msg/ServiceEventInfo"
+            },
+            "default_value": ""
+          },
+          {
+            "name": "request",
+            "type": {
+              "type_id": 97,
+              "capacity": 1,
+              "string_capacity": 0,
+              "nested_type_name": "irobot_create_msgs/action/AudioNoteSequence_SendGoal_Request"
+            },
+            "default_value": ""
+          },
+          {
+            "name": "response",
+            "type": {
+              "type_id": 97,
+              "capacity": 1,
+              "string_capacity": 0,
+              "nested_type_name": "irobot_create_msgs/action/AudioNoteSequence_SendGoal_Response"
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "irobot_create_msgs/action/AudioNoteSequence_SendGoal_Request",
+        "fields": [
+          {
+            "name": "goal_id",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "unique_identifier_msgs/msg/UUID"
+            },
+            "default_value": ""
+          },
+          {
+            "name": "goal",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "irobot_create_msgs/action/AudioNoteSequence_Goal"
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "irobot_create_msgs/action/AudioNoteSequence_SendGoal_Response",
+        "fields": [
+          {
+            "name": "accepted",
+            "type": {
+              "type_id": 15,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "stamp",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "builtin_interfaces/msg/Time"
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "irobot_create_msgs/msg/AudioNote",
+        "fields": [
+          {
+            "name": "frequency",
+            "type": {
+              "type_id": 5,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "max_runtime",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "builtin_interfaces/msg/Duration"
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "irobot_create_msgs/msg/AudioNoteVector",
+        "fields": [
+          {
+            "name": "header",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "std_msgs/msg/Header"
+            },
+            "default_value": ""
+          },
+          {
+            "name": "notes",
+            "type": {
+              "type_id": 145,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "irobot_create_msgs/msg/AudioNote"
+            },
+            "default_value": ""
+          },
+          {
+            "name": "append",
+            "type": {
+              "type_id": 15,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "service_msgs/msg/ServiceEventInfo",
+        "fields": [
+          {
+            "name": "event_type",
+            "type": {
+              "type_id": 3,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "stamp",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "builtin_interfaces/msg/Time"
+            },
+            "default_value": ""
+          },
+          {
+            "name": "client_gid",
+            "type": {
+              "type_id": 51,
+              "capacity": 16,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "sequence_number",
+            "type": {
+              "type_id": 8,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "std_msgs/msg/Header",
+        "fields": [
+          {
+            "name": "stamp",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "builtin_interfaces/msg/Time"
+            },
+            "default_value": ""
+          },
+          {
+            "name": "frame_id",
+            "type": {
+              "type_id": 17,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "unique_identifier_msgs/msg/UUID",
+        "fields": [
+          {
+            "name": "uuid",
+            "type": {
+              "type_id": 51,
+              "capacity": 16,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          }
+        ]
+      }
+    ]
+  },
+  "type_hashes": [
+    {
+      "type_name": "irobot_create_msgs/action/AudioNoteSequence",
+      "hash_string": "RIHS01_2ae17db63d7f676a48aba20edb577ca9b54a95b0029f3f7f7466c9f2e9121990"
+    },
+    {
+      "type_name": "builtin_interfaces/msg/Duration",
+      "hash_string": "RIHS01_e8d009f659816f758b75334ee1a9ca5b5c0b859843261f14c7f937349599d93b"
+    },
+    {
+      "type_name": "builtin_interfaces/msg/Time",
+      "hash_string": "RIHS01_b106235e25a4c5ed35098aa0a61a3ee9c9b18d197f398b0e4206cea9acf9c197"
+    },
+    {
+      "type_name": "irobot_create_msgs/action/AudioNoteSequence_Feedback",
+      "hash_string": "RIHS01_58a69ef23a60bbccd792f354a9d00d1985fc20d5a766abcc6af74ee30b62285c"
+    },
+    {
+      "type_name": "irobot_create_msgs/action/AudioNoteSequence_FeedbackMessage",
+      "hash_string": "RIHS01_c8a814e66932d8be2230768c33a100907e71eb656aa70661bdb0901f2965ef23"
+    },
+    {
+      "type_name": "irobot_create_msgs/action/AudioNoteSequence_GetResult",
+      "hash_string": "RIHS01_aa11be9a596511e50d7f98395dcb9c88aaace3440564479f82735f7e8a289a41"
+    },
+    {
+      "type_name": "irobot_create_msgs/action/AudioNoteSequence_GetResult_Event",
+      "hash_string": "RIHS01_e0556bbd60fc325a4f137003e4124ed649dd52415594ace60053fc1e5d602da8"
+    },
+    {
+      "type_name": "irobot_create_msgs/action/AudioNoteSequence_GetResult_Request",
+      "hash_string": "RIHS01_b71bf2579e93eeaa6f0c9e08ec51554b9094a43228637390966ce17c82ef900a"
+    },
+    {
+      "type_name": "irobot_create_msgs/action/AudioNoteSequence_GetResult_Response",
+      "hash_string": "RIHS01_9f1a76de99b78caf1afdb631a9ac597cb69e0301f34ab613753711a96ac66c5d"
+    },
+    {
+      "type_name": "irobot_create_msgs/action/AudioNoteSequence_Goal",
+      "hash_string": "RIHS01_4440bfbd95554c6e7fa638e07feb6a9adee7cabb4c9fe65e990db0d31fad49b0"
+    },
+    {
+      "type_name": "irobot_create_msgs/action/AudioNoteSequence_Result",
+      "hash_string": "RIHS01_e4fa4e2f2eebb5422a41e075190d6a6ec3a76750f6c4dbb451020fa9001fa15a"
+    },
+    {
+      "type_name": "irobot_create_msgs/action/AudioNoteSequence_SendGoal",
+      "hash_string": "RIHS01_2e72482831145501c51ac6b246f127799cfb6c3c8573fbdfee7cb23537a3eef5"
+    },
+    {
+      "type_name": "irobot_create_msgs/action/AudioNoteSequence_SendGoal_Event",
+      "hash_string": "RIHS01_e0f4f93b2eaf93db2c47b37ffb33a44da87384231eb9a45b0dc06af17a1cec8d"
+    },
+    {
+      "type_name": "irobot_create_msgs/action/AudioNoteSequence_SendGoal_Request",
+      "hash_string": "RIHS01_8a2a59da3f431b7c6c9c4faf649cad5aed64c12c630ed53ac9719bcf5b8e6287"
+    },
+    {
+      "type_name": "irobot_create_msgs/action/AudioNoteSequence_SendGoal_Response",
+      "hash_string": "RIHS01_ef428bcc0b0fb1d53f7586d1ab265ff33915c54ea2780ef9af0463e3a4bda307"
+    },
+    {
+      "type_name": "irobot_create_msgs/msg/AudioNote",
+      "hash_string": "RIHS01_01d9b10e4e1c8692cffab09799b9488afe946104ba20c5bd3283c5b7c98c8f3a"
+    },
+    {
+      "type_name": "irobot_create_msgs/msg/AudioNoteVector",
+      "hash_string": "RIHS01_f681987214d5674313be647647b5aff264c0474fde60121baedcb1253a3f9e04"
+    },
+    {
+      "type_name": "service_msgs/msg/ServiceEventInfo",
+      "hash_string": "RIHS01_41bcbbe07a75c9b52bc96bfd5c24d7f0fc0a08c0cb7921b3373c5732345a6f45"
+    },
+    {
+      "type_name": "std_msgs/msg/Header",
+      "hash_string": "RIHS01_f49fb3ae2cf070f793645ff749683ac6b06203e41c891e17701b1cb597ce6a01"
+    },
+    {
+      "type_name": "unique_identifier_msgs/msg/UUID",
+      "hash_string": "RIHS01_1b8e8aca958cbea28fe6ef60bf6c19b683c97a9ef60bb34752067d0f2f7ab437"
+    }
+  ]
+}

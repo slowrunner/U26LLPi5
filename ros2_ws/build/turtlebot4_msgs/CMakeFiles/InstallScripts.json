@@ -1,0 +1,9 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/ubuntu/U26LLPi5/ros2_ws/build/turtlebot4_msgs/cmake_install.cmake",
+		"/home/ubuntu/U26LLPi5/ros2_ws/build/turtlebot4_msgs/turtlebot4_msgs__py/cmake_install.cmake",
+		"/home/ubuntu/U26LLPi5/ros2_ws/build/turtlebot4_msgs/turtlebot4_msgs__rs/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

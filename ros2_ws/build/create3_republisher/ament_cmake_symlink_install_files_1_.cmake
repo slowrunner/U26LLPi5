@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_files("/home/ubuntu/U26LLPi5/ros2_ws/src/create3_examples/create3_republisher" FILES "/home/ubuntu/U26LLPi5/ros2_ws/build/create3_republisher/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/create3_republisher" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")

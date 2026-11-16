@@ -1,0 +1,1 @@
+/home/ubuntu/U26LLPi5/ros2_ws/src/turtlebot4_robot/turtlebot4_diagnostics/launch/diagnostics.launch.py

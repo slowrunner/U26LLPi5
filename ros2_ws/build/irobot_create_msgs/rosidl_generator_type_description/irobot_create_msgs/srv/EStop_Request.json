@@ -1,0 +1,26 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "irobot_create_msgs/srv/EStop_Request",
+      "fields": [
+        {
+          "name": "e_stop_on",
+          "type": {
+            "type_id": 15,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "irobot_create_msgs/srv/EStop_Request",
+      "hash_string": "RIHS01_988597fda7c4c505f1325936f379fea860e46a15a65c91c0d21fe2d4c3271fe5"
+    }
+  ]
+}

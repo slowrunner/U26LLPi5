@@ -1,0 +1,26 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "irobot_create_msgs/action/WallFollow_Feedback",
+      "fields": [
+        {
+          "name": "engaged",
+          "type": {
+            "type_id": 15,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "irobot_create_msgs/action/WallFollow_Feedback",
+      "hash_string": "RIHS01_d652621be3e146c064e8bdc0ea2354b29bb0a3a893b24fe1cb187c35ce421674"
+    }
+  ]
+}

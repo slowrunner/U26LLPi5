@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_files("/home/ubuntu/U26LLPi5/ros2_ws/src/turtlebot4/turtlebot4_navigation" FILES "/home/ubuntu/U26LLPi5/ros2_ws/build/turtlebot4_navigation/ament_cmake_environment_hooks/pythonpath.dsv" "DESTINATION" "share/turtlebot4_navigation/environment")

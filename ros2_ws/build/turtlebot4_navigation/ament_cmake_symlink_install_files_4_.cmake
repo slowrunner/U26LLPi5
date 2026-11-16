@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_files("/home/ubuntu/U26LLPi5/ros2_ws/src/turtlebot4/turtlebot4_navigation" FILES "/home/ubuntu/U26LLPi5/ros2_ws/build/turtlebot4_navigation/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/turtlebot4_navigation" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")

@@ -1,0 +1,26 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "create3_examples_msgs/action/Coverage_Feedback",
+      "fields": [
+        {
+          "name": "current_behavior",
+          "type": {
+            "type_id": 6,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "create3_examples_msgs/action/Coverage_Feedback",
+      "hash_string": "RIHS01_a142c04ff1c3786e80ec1c90ed4e837c286489b25a4de1ed13e418f22aeb3806"
+    }
+  ]
+}

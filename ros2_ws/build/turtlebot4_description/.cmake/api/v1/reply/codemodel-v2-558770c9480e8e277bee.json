@@ -1,0 +1,160 @@
+{
+	"configurations" : 
+	[
+		{
+			"abstractTargets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "Python3::Interpreter::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Python3__Interpreter-84ee33a1e8dd00fe6360.json",
+					"name" : "Python3::Interpreter",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Python3::InterpreterMultiConfig::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Python3__InterpreterMultiConfig-20b58d5f5b96c5e6b69f.json",
+					"name" : "Python3::InterpreterMultiConfig",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "urdf::urdf::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-urdf__urdf-7e0771538e903a4f89bd.json",
+					"name" : "urdf::urdf",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "urdf_parser_plugin::urdf_parser_plugin::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-urdf_parser_plugin__urdf_parser_plugin-c5393c1f5a207a7e03cf.json",
+					"name" : "urdf_parser_plugin::urdf_parser_plugin",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "urdfdom::urdf_parser::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-urdfdom__urdf_parser-678644f7e8486623df40.json",
+					"name" : "urdfdom::urdf_parser",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "urdfdom::urdfdom_model::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-urdfdom__urdfdom_model-2a5610f6e66b10104b21.json",
+					"name" : "urdfdom::urdfdom_model",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "urdfdom::urdfdom_sensor::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-urdfdom__urdfdom_sensor-a25975e3b5c1e33a8412.json",
+					"name" : "urdfdom::urdfdom_sensor",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "urdfdom::urdfdom_world::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-urdfdom__urdfdom_world-b108cae8b29aec06eba8.json",
+					"name" : "urdfdom::urdfdom_world",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "urdfdom_headers::urdfdom_headers::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-urdfdom_headers__urdfdom_headers-fd0791f245ab7b842cb5.json",
+					"name" : "urdfdom_headers::urdfdom_headers",
+					"projectIndex" : 0
+				}
+			],
+			"directories" : 
+			[
+				{
+					"abstractTargetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8
+					],
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-58d0ff3fa762aadb9635.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"abstractTargetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "turtlebot4_description",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "turtlebot4_description_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-turtlebot4_description_uninstall-d79604c66e9d01624ff2.json",
+					"name" : "turtlebot4_description_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-bc9784119ee5266fae64.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/ubuntu/U26LLPi5/ros2_ws/build/turtlebot4_description",
+		"source" : "/home/ubuntu/U26LLPi5/ros2_ws/src/turtlebot4/turtlebot4_description"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 9
+	}
+}

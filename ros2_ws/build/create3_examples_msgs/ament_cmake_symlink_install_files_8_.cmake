@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_files("/home/ubuntu/U26LLPi5/ros2_ws/src/create3_examples/create3_examples_msgs" FILES "/home/ubuntu/U26LLPi5/ros2_ws/src/create3_examples/create3_examples_msgs/action/Coverage.action" "DESTINATION" "share/create3_examples_msgs/action")

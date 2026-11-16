@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_files("/home/ubuntu/U26LLPi5/ros2_ws/src/turtlebot4/turtlebot4_msgs" FILES "/home/ubuntu/U26LLPi5/ros2_ws/build/turtlebot4_msgs/ament_cmake_export_libraries/ament_cmake_export_libraries-extras.cmake" "DESTINATION" "share/turtlebot4_msgs/cmake")

@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_files("/home/ubuntu/U26LLPi5/ros2_ws/src/create3_sim/irobot_create_common/irobot_create_control" FILES "/home/ubuntu/U26LLPi5/ros2_ws/build/irobot_create_control/ament_cmake_index/share/ament_index/resource_index/packages/irobot_create_control" "DESTINATION" "share/ament_index/resource_index/packages")

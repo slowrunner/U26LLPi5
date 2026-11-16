@@ -1,0 +1,1 @@
+/home/ubuntu/U26LLPi5/ros2_ws/build/create3_republisher/ament_cmake_environment_hooks/local_setup.fish

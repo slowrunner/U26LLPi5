@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_files("/home/ubuntu/U26LLPi5/ros2_ws/src/create3_examples/create3_examples_msgs" FILES "/home/ubuntu/U26LLPi5/ros2_ws/build/create3_examples_msgs/rosidl_cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake" "DESTINATION" "share/create3_examples_msgs/cmake")

@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_files("/home/ubuntu/U26LLPi5/ros2_ws/src/irobot_create_msgs" FILES "/home/ubuntu/U26LLPi5/ros2_ws/src/irobot_create_msgs/action/WallFollow.action" "DESTINATION" "share/irobot_create_msgs/action")

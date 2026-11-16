@@ -1,0 +1,19 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"codemodelVersion" : 
+	{
+		"major" : 2,
+		"minor" : 9
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "create3_examples_msgs__rs",
+		"source" : "/home/ubuntu/U26LLPi5/ros2_ws/build/create3_examples_msgs/create3_examples_msgs__rs"
+	}
+}

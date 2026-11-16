@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/ubuntu/U26LLPi5/ros2_ws/build/create3_examples_msgs/rosidl_generator_py/create3_examples_msgs/create3_examples_msgs_s__rosidl_typesupport_c.so" "TARGETS" "create3_examples_msgs_s__rosidl_typesupport_c" "DESTINATION" "lib/python3.14/site-packages/create3_examples_msgs")

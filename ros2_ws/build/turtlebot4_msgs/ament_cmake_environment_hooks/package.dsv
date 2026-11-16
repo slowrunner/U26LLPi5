@@ -1,0 +1,5 @@
+source;share/turtlebot4_msgs/local_setup.bash
+source;share/turtlebot4_msgs/local_setup.dsv
+source;share/turtlebot4_msgs/local_setup.fish
+source;share/turtlebot4_msgs/local_setup.sh
+source;share/turtlebot4_msgs/local_setup.zsh
