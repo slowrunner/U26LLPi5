@@ -1,0 +1,54 @@
+-- The C compiler identification is GNU 15.2.0
+-- The CXX compiler identification is GNU 15.2.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.8.7 (/opt/ros/lyrical/share/ament_cmake/cmake)
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found irobot_create_msgs: 3.0.0 (/home/ubuntu/U26LLPi5/ros2_ws/install/irobot_create_msgs/share/irobot_create_msgs/cmake)
+-- Found rosidl_generator_c: 5.2.1 (/opt/ros/lyrical/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 5.2.1 (/opt/ros/lyrical/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rclcpp: 32.0.0 (/opt/ros/lyrical/share/rclcpp/cmake)
+-- Found rmw_implementation_cmake: 7.10.1 (/opt/ros/lyrical/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 9.4.8 (/opt/ros/lyrical/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found rclcpp_action: 32.0.0 (/opt/ros/lyrical/share/rclcpp_action/cmake)
+-- Configuring done (2.5s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/ubuntu/U26LLPi5/ros2_ws/build/create3_republisher
+[ 50%] [32mBuilding CXX object CMakeFiles/create3_republisher.dir/republisher.cpp.o[0m
+[100%] [1m[32mLinking CXX executable create3_republisher[0m
+[100%] Built target create3_republisher
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/ubuntu/U26LLPi5/ros2_ws/install/create3_republisher/lib/create3_republisher/create3_republisher
+-- Symlinking: /home/ubuntu/U26LLPi5/ros2_ws/install/create3_republisher/share/create3_republisher/bringup/create3_republisher_launch.py
+-- Symlinking: /home/ubuntu/U26LLPi5/ros2_ws/install/create3_republisher/share/create3_republisher/bringup/params.yaml
+-- Symlinking: /home/ubuntu/U26LLPi5/ros2_ws/install/create3_republisher/share/create3_republisher/dds-config/fastdds-active-unicast.xml
+-- Symlinking: /home/ubuntu/U26LLPi5/ros2_ws/install/create3_republisher/share/create3_republisher/dds-config/fastdds-passive-unicast.xml
+-- Symlinking: /home/ubuntu/U26LLPi5/ros2_ws/install/create3_republisher/share/create3_republisher/dds-config/fastdds-robot-passive-unicast.xml
+-- Symlinking: /home/ubuntu/U26LLPi5/ros2_ws/install/create3_republisher/share/ament_index/resource_index/package_run_dependencies/create3_republisher
+-- Symlinking: /home/ubuntu/U26LLPi5/ros2_ws/install/create3_republisher/share/ament_index/resource_index/parent_prefix_path/create3_republisher
+-- Symlinking: /home/ubuntu/U26LLPi5/ros2_ws/install/create3_republisher/share/create3_republisher/environment/ament_prefix_path.sh
+-- Symlinking: /home/ubuntu/U26LLPi5/ros2_ws/install/create3_republisher/share/create3_republisher/environment/ament_prefix_path.dsv
+-- Symlinking: /home/ubuntu/U26LLPi5/ros2_ws/install/create3_republisher/share/create3_republisher/environment/path.sh
+-- Symlinking: /home/ubuntu/U26LLPi5/ros2_ws/install/create3_republisher/share/create3_republisher/environment/path.dsv
+-- Symlinking: /home/ubuntu/U26LLPi5/ros2_ws/install/create3_republisher/share/create3_republisher/local_setup.bash
+-- Symlinking: /home/ubuntu/U26LLPi5/ros2_ws/install/create3_republisher/share/create3_republisher/local_setup.fish
+-- Symlinking: /home/ubuntu/U26LLPi5/ros2_ws/install/create3_republisher/share/create3_republisher/local_setup.sh
+-- Symlinking: /home/ubuntu/U26LLPi5/ros2_ws/install/create3_republisher/share/create3_republisher/local_setup.zsh
+-- Symlinking: /home/ubuntu/U26LLPi5/ros2_ws/install/create3_republisher/share/create3_republisher/local_setup.dsv
+-- Symlinking: /home/ubuntu/U26LLPi5/ros2_ws/install/create3_republisher/share/create3_republisher/package.dsv
+-- Symlinking: /home/ubuntu/U26LLPi5/ros2_ws/install/create3_republisher/share/ament_index/resource_index/packages/create3_republisher
+-- Symlinking: /home/ubuntu/U26LLPi5/ros2_ws/install/create3_republisher/share/create3_republisher/cmake/create3_republisherConfig.cmake
+-- Symlinking: /home/ubuntu/U26LLPi5/ros2_ws/install/create3_republisher/share/create3_republisher/cmake/create3_republisherConfig-version.cmake
+-- Symlinking: /home/ubuntu/U26LLPi5/ros2_ws/install/create3_republisher/share/create3_republisher/package.xml

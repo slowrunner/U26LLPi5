@@ -1,0 +1,20 @@
+running develop
+running egg_info
+creating turtlebot4_tests.egg-info
+writing turtlebot4_tests.egg-info/PKG-INFO
+writing dependency_links to turtlebot4_tests.egg-info/dependency_links.txt
+writing entry points to turtlebot4_tests.egg-info/entry_points.txt
+writing requirements to turtlebot4_tests.egg-info/requires.txt
+writing top-level names to turtlebot4_tests.egg-info/top_level.txt
+writing manifest file 'turtlebot4_tests.egg-info/SOURCES.txt'
+reading manifest file 'turtlebot4_tests.egg-info/SOURCES.txt'
+writing manifest file 'turtlebot4_tests.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/ubuntu/U26LLPi5/ros2_ws/install/turtlebot4_tests/lib/python3.14/site-packages/turtlebot4-tests.egg-link (link to .)
+Installing ros_tests script to /home/ubuntu/U26LLPi5/ros2_ws/install/turtlebot4_tests/lib/turtlebot4_tests
+
+Installed /home/ubuntu/U26LLPi5/ros2_ws/build/turtlebot4_tests
+running symlink_data
+creating /home/ubuntu/U26LLPi5/ros2_ws/install/turtlebot4_tests/share/ament_index/resource_index/packages
+symbolically linking /home/ubuntu/U26LLPi5/ros2_ws/build/turtlebot4_tests/resource/turtlebot4_tests -> /home/ubuntu/U26LLPi5/ros2_ws/install/turtlebot4_tests/share/ament_index/resource_index/packages
+symbolically linking /home/ubuntu/U26LLPi5/ros2_ws/build/turtlebot4_tests/package.xml -> /home/ubuntu/U26LLPi5/ros2_ws/install/turtlebot4_tests/share/turtlebot4_tests

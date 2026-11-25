@@ -1,0 +1,270 @@
+[0.021s] Invoking command in '/home/ubuntu/U26LLPi5/ros2_ws/build/turtlebot4_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/ubuntu/U26LLPi5/ros2_ws/src/turtlebot4/turtlebot4_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/U26LLPi5/ros2_ws/install/turtlebot4_msgs
+[0.177s] -- The C compiler identification is GNU 15.2.0
+[0.358s] -- The CXX compiler identification is GNU 15.2.0
+[0.371s] -- Detecting C compiler ABI info
+[0.560s] -- Detecting C compiler ABI info - done
+[0.588s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.588s] -- Detecting C compile features
+[0.589s] -- Detecting C compile features - done
+[0.611s] -- Detecting CXX compiler ABI info
+[0.830s] -- Detecting CXX compiler ABI info - done
+[0.858s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.858s] -- Detecting CXX compile features
+[0.860s] -- Detecting CXX compile features - done
+[0.882s] -- Found ament_cmake: 2.8.7 (/opt/ros/lyrical/share/ament_cmake/cmake)
+[1.594s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.670s] -- Found ament_lint_auto: 0.20.6 (/opt/ros/lyrical/share/ament_lint_auto/cmake)
+[1.932s] -- Found rosidl_default_generators: 1.8.1 (/opt/ros/lyrical/share/rosidl_default_generators/cmake)
+[1.942s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.025s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.127s] -- Found rosidl_adapter: 5.2.1 (/opt/ros/lyrical/share/rosidl_adapter/cmake)
+[2.137s] -- Found std_msgs: 5.9.2 (/opt/ros/lyrical/share/std_msgs/cmake)
+[2.498s] -- Found Python3: /usr/bin/python3 (found version "3.14.4") found components: Interpreter
+[4.258s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.555s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[6.517s] -- Found Python3: /usr/bin/python3 (found version "3.14.4") found components: Interpreter Development NumPy Development.Module Development.Embed
+[6.644s] -- Found Python3: /usr/bin/python3 (found version "3.14.4") found components: Interpreter
+[6.661s] -- Added test 'copyright' to check source files copyright and LICENSE
+[6.665s] -- Added test 'lint_cmake' to check CMake code style
+[6.668s] -- Added test 'xmllint' to check XML markup files
+[6.688s] -- Configuring done (6.7s)
+[6.777s] -- Generating done (0.1s)
+[6.820s] -- Build files have been written to: /home/ubuntu/U26LLPi5/ros2_ws/build/turtlebot4_msgs
+[6.841s] Invoked command in '/home/ubuntu/U26LLPi5/ros2_ws/build/turtlebot4_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/ubuntu/U26LLPi5/ros2_ws/src/turtlebot4/turtlebot4_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/U26LLPi5/ros2_ws/install/turtlebot4_msgs
+[6.845s] Invoking command in '/home/ubuntu/U26LLPi5/ros2_ws/build/turtlebot4_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ubuntu/U26LLPi5/ros2_ws/build/turtlebot4_msgs -- -j4 -l4
+[6.942s] [  1%] [1m[34mGenerating Rust code for ROS interfaces[0m
+[7.687s] [  1%] Built target turtlebot4_msgs__rs
+[7.735s] [  3%] [1m[34mGenerating type hashes for ROS interfaces[0m
+[8.346s] [  3%] Built target turtlebot4_msgs__rosidl_generator_type_description
+[8.381s] [  5%] [1m[34mGenerating C++ code for ROS interfaces[0m
+[9.315s] [  5%] Built target turtlebot4_msgs__cpp
+[9.331s] [  7%] [1m[34mGenerating C code for ROS interfaces[0m
+[10.503s] [  9%] [32mBuilding C object CMakeFiles/turtlebot4_msgs__rosidl_generator_c.dir/rosidl_generator_c/turtlebot4_msgs/msg/detail/user_led__description.c.o[0m
+[10.572s] [ 10%] [32mBuilding C object CMakeFiles/turtlebot4_msgs__rosidl_generator_c.dir/rosidl_generator_c/turtlebot4_msgs/msg/detail/user_button__description.c.o[0m
+[10.632s] [ 12%] [32mBuilding C object CMakeFiles/turtlebot4_msgs__rosidl_generator_c.dir/rosidl_generator_c/turtlebot4_msgs/msg/detail/user_button__functions.c.o[0m
+[10.718s] [ 14%] [32mBuilding C object CMakeFiles/turtlebot4_msgs__rosidl_generator_c.dir/rosidl_generator_c/turtlebot4_msgs/msg/detail/user_button__type_support.c.o[0m
+[10.767s] [ 16%] [32mBuilding C object CMakeFiles/turtlebot4_msgs__rosidl_generator_c.dir/rosidl_generator_c/turtlebot4_msgs/msg/detail/user_display__description.c.o[0m
+[10.825s] [ 18%] [32mBuilding C object CMakeFiles/turtlebot4_msgs__rosidl_generator_c.dir/rosidl_generator_c/turtlebot4_msgs/msg/detail/user_display__functions.c.o[0m
+[10.923s] [ 20%] [32mBuilding C object CMakeFiles/turtlebot4_msgs__rosidl_generator_c.dir/rosidl_generator_c/turtlebot4_msgs/msg/detail/user_display__type_support.c.o[0m
+[10.976s] [ 21%] [32mBuilding C object CMakeFiles/turtlebot4_msgs__rosidl_generator_c.dir/rosidl_generator_c/turtlebot4_msgs/msg/detail/user_led__type_support.c.o[0m
+[11.029s] [ 23%] [32mBuilding C object CMakeFiles/turtlebot4_msgs__rosidl_generator_c.dir/rosidl_generator_c/turtlebot4_msgs/msg/detail/user_led__functions.c.o[0m
+[11.114s] [ 25%] [1m[32mLinking C shared library libturtlebot4_msgs__rosidl_generator_c.so[0m
+[11.190s] [ 25%] Built target turtlebot4_msgs__rosidl_generator_c
+[11.209s] [ 27%] [1m[34mGenerating C++ type support for eProsima Fast-RTPS[0m
+[12.105s] [ 29%] [32mBuilding CXX object CMakeFiles/turtlebot4_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtlebot4_msgs/msg/detail/dds_fastrtps/user_led__type_support.cpp.o[0m
+[13.137s] [ 30%] [32mBuilding CXX object CMakeFiles/turtlebot4_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtlebot4_msgs/msg/detail/dds_fastrtps/user_button__type_support.cpp.o[0m
+[14.226s] [ 32%] [32mBuilding CXX object CMakeFiles/turtlebot4_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtlebot4_msgs/msg/detail/dds_fastrtps/user_display__type_support.cpp.o[0m
+[15.663s] [ 34%] [1m[32mLinking CXX shared library libturtlebot4_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[15.807s] [ 34%] Built target turtlebot4_msgs__rosidl_typesupport_fastrtps_cpp
+[15.823s] [ 36%] [1m[34mGenerating C type support for eProsima Fast-RTPS[0m
+[16.740s] [ 38%] [32mBuilding CXX object CMakeFiles/turtlebot4_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtlebot4_msgs/msg/detail/user_led__type_support_c.cpp.o[0m
+[17.851s] [ 40%] [32mBuilding CXX object CMakeFiles/turtlebot4_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtlebot4_msgs/msg/detail/user_button__type_support_c.cpp.o[0m
+[18.955s] [ 41%] [32mBuilding CXX object CMakeFiles/turtlebot4_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtlebot4_msgs/msg/detail/user_display__type_support_c.cpp.o[0m
+[20.057s] [ 43%] [1m[32mLinking CXX shared library libturtlebot4_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[20.228s] [ 43%] Built target turtlebot4_msgs__rosidl_typesupport_fastrtps_c
+[20.246s] [ 45%] [1m[34mGenerating C introspection for ROS interfaces[0m
+[20.984s] [ 47%] [32mBuilding C object CMakeFiles/turtlebot4_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlebot4_msgs/msg/detail/user_led__type_support.c.o[0m
+[21.042s] [ 49%] [32mBuilding C object CMakeFiles/turtlebot4_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlebot4_msgs/msg/detail/user_button__type_support.c.o[0m
+[21.101s] [ 50%] [32mBuilding C object CMakeFiles/turtlebot4_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlebot4_msgs/msg/detail/user_display__type_support.c.o[0m
+[21.161s] [ 52%] [1m[32mLinking C shared library libturtlebot4_msgs__rosidl_typesupport_introspection_c.so[0m
+[21.210s] [ 52%] Built target turtlebot4_msgs__rosidl_typesupport_introspection_c
+[21.226s] [ 56%] [1m[34mGenerating C++ type support dispatch for ROS interfaces[0m
+[21.226s] [ 56%] [1m[34mGenerating C type support dispatch for ROS interfaces[0m
+[21.843s] [ 58%] [32mBuilding CXX object CMakeFiles/turtlebot4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlebot4_msgs/msg/user_led__type_support.cpp.o[0m
+[21.859s] [ 60%] [32mBuilding CXX object CMakeFiles/turtlebot4_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlebot4_msgs/msg/user_led__type_support.cpp.o[0m
+[21.912s] [ 61%] [32mBuilding CXX object CMakeFiles/turtlebot4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlebot4_msgs/msg/user_button__type_support.cpp.o[0m
+[21.981s] [ 63%] [32mBuilding CXX object CMakeFiles/turtlebot4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlebot4_msgs/msg/user_display__type_support.cpp.o[0m
+[22.050s] [ 65%] [1m[32mLinking CXX shared library libturtlebot4_msgs__rosidl_typesupport_c.so[0m
+[22.113s] [ 65%] Built target turtlebot4_msgs__rosidl_typesupport_c
+[22.132s] [ 67%] [1m[34mGenerating C++ introspection for ROS interfaces[0m
+[22.677s] [ 69%] [32mBuilding CXX object CMakeFiles/turtlebot4_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlebot4_msgs/msg/user_display__type_support.cpp.o[0m
+[22.892s] [ 70%] [32mBuilding CXX object CMakeFiles/turtlebot4_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtlebot4_msgs/msg/detail/user_led__type_support.cpp.o[0m
+[23.465s] [ 72%] [32mBuilding CXX object CMakeFiles/turtlebot4_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlebot4_msgs/msg/user_button__type_support.cpp.o[0m
+[23.717s] [ 74%] [32mBuilding CXX object CMakeFiles/turtlebot4_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtlebot4_msgs/msg/detail/user_display__type_support.cpp.o[0m
+[24.284s] [ 76%] [1m[32mLinking CXX shared library libturtlebot4_msgs__rosidl_typesupport_cpp.so[0m
+[24.347s] [ 76%] Built target turtlebot4_msgs__rosidl_typesupport_cpp
+[24.554s] [ 78%] [32mBuilding CXX object CMakeFiles/turtlebot4_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtlebot4_msgs/msg/detail/user_button__type_support.cpp.o[0m
+[25.375s] [ 80%] [1m[32mLinking CXX shared library libturtlebot4_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[25.537s] [ 80%] Built target turtlebot4_msgs__rosidl_typesupport_introspection_cpp
+[25.575s] [ 80%] Built target turtlebot4_msgs
+[25.611s] [ 81%] [1m[34mGenerating Python code for ROS interfaces[0m
+[27.006s] [ 81%] Built target turtlebot4_msgs__py
+[27.040s] [ 83%] [32mBuilding C object CMakeFiles/turtlebot4_msgs__rosidl_generator_py.dir/rosidl_generator_py/turtlebot4_msgs/msg/_user_led_s.c.o[0m
+[27.265s] [ 85%] [32mBuilding C object CMakeFiles/turtlebot4_msgs__rosidl_generator_py.dir/rosidl_generator_py/turtlebot4_msgs/msg/_user_display_s.c.o[0m
+[27.531s] [ 87%] [32mBuilding C object CMakeFiles/turtlebot4_msgs__rosidl_generator_py.dir/rosidl_generator_py/turtlebot4_msgs/msg/_user_button_s.c.o[0m
+[27.762s] [ 89%] [1m[32mLinking C shared library libturtlebot4_msgs__rosidl_generator_py.so[0m
+[27.849s] [ 89%] Built target turtlebot4_msgs__rosidl_generator_py
+[27.906s] [ 89%] Built target ament_cmake_python_sync_turtlebot4_msgs
+[27.946s] [ 90%] [32mBuilding C object CMakeFiles/turtlebot4_msgs_s__rosidl_typesupport_c.dir/rosidl_generator_py/turtlebot4_msgs/_turtlebot4_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[28.151s] [ 92%] [1m[32mLinking C shared module rosidl_generator_py/turtlebot4_msgs/turtlebot4_msgs_s__rosidl_typesupport_c.so[0m
+[28.205s] [ 92%] Built target turtlebot4_msgs_s__rosidl_typesupport_c
+[28.245s] [ 94%] [32mBuilding C object CMakeFiles/turtlebot4_msgs_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/turtlebot4_msgs/_turtlebot4_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[28.455s] [ 96%] [1m[32mLinking C shared module rosidl_generator_py/turtlebot4_msgs/turtlebot4_msgs_s__rosidl_typesupport_introspection_c.so[0m
+[28.513s] [ 96%] Built target turtlebot4_msgs_s__rosidl_typesupport_introspection_c
+[28.547s] [ 98%] [32mBuilding C object CMakeFiles/turtlebot4_msgs_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/turtlebot4_msgs/_turtlebot4_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[28.753s] [100%] [1m[32mLinking C shared module rosidl_generator_py/turtlebot4_msgs/turtlebot4_msgs_s__rosidl_typesupport_fastrtps_c.so[0m
+[28.808s] [100%] Built target turtlebot4_msgs_s__rosidl_typesupport_fastrtps_c
+[28.831s] running egg_info
+[28.894s] creating turtlebot4_msgs.egg-info
+[28.894s] writing turtlebot4_msgs.egg-info/PKG-INFO
+[28.896s] writing dependency_links to turtlebot4_msgs.egg-info/dependency_links.txt
+[28.897s] writing top-level names to turtlebot4_msgs.egg-info/top_level.txt
+[28.898s] writing manifest file 'turtlebot4_msgs.egg-info/SOURCES.txt'
+[29.085s] reading manifest file 'turtlebot4_msgs.egg-info/SOURCES.txt'
+[29.087s] writing manifest file 'turtlebot4_msgs.egg-info/SOURCES.txt'
+[29.221s] [100%] Built target ament_cmake_python_build_turtlebot4_msgs_egg
+[29.244s] Invoked command in '/home/ubuntu/U26LLPi5/ros2_ws/build/turtlebot4_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ubuntu/U26LLPi5/ros2_ws/build/turtlebot4_msgs -- -j4 -l4
+[29.246s] Invoking command in '/home/ubuntu/U26LLPi5/ros2_ws/build/turtlebot4_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ubuntu/U26LLPi5/ros2_ws/build/turtlebot4_msgs
+[29.264s] -- Install configuration: ""
+[29.264s] -- Execute custom install script
+[29.265s] -- Symlinking: /home/ubuntu/U26LLPi5/ros2_ws/install/turtlebot4_msgs/share/ament_index/resource_index/rosidl_interfaces/turtlebot4_msgs
+[29.283s] -- Symlinking: /home/ubuntu/U26LLPi5/ros2_ws/install/turtlebot4_msgs/share/turtlebot4_msgs/msg/UserLed.json
+[29.303s] -- Symlinking: /home/ubuntu/U26LLPi5/ros2_ws/install/turtlebot4_msgs/share/turtlebot4_msgs/msg/UserButton.json
+[29.323s] -- Symlinking: /home/ubuntu/U26LLPi5/ros2_ws/install/turtlebot4_msgs/share/turtlebot4_msgs/msg/UserDisplay.json
+[29.352s] -- Symlinking: /home/ubuntu/U26LLPi5/ros2_ws/install/turtlebot4_msgs/include/turtlebot4_msgs/turtlebot4_msgs/msg/detail/user_button__functions.h
+[29.372s] -- Symlinking: /home/ubuntu/U26LLPi5/ros2_ws/install/turtlebot4_msgs/include/turtlebot4_msgs/turtlebot4_msgs/msg/detail/user_button__struct.h
+[29.390s] -- Symlinking: /home/ubuntu/U26LLPi5/ros2_ws/install/turtlebot4_msgs/include/turtlebot4_msgs/turtlebot4_msgs/msg/detail/user_button__type_support.h
+[29.408s] -- Symlinking: /home/ubuntu/U26LLPi5/ros2_ws/install/turtlebot4_msgs/include/turtlebot4_msgs/turtlebot4_msgs/msg/detail/user_display__functions.h
+[29.427s] -- Symlinking: /home/ubuntu/U26LLPi5/ros2_ws/install/turtlebot4_msgs/include/turtlebot4_msgs/turtlebot4_msgs/msg/detail/user_display__struct.h
+[29.441s] -- Symlinking: /home/ubuntu/U26LLPi5/ros2_ws/install/turtlebot4_msgs/include/turtlebot4_msgs/turtlebot4_msgs/msg/detail/user_display__type_support.h
+[29.458s] -- Symlinking: /home/ubuntu/U26LLPi5/ros2_ws/install/turtlebot4_msgs/include/turtlebot4_msgs/turtlebot4_msgs/msg/detail/user_led__functions.h
+[29.472s] -- Symlinking: /home/ubuntu/U26LLPi5/ros2_ws/install/turtlebot4_msgs/include/turtlebot4_msgs/turtlebot4_msgs/msg/detail/user_led__struct.h
+[29.488s] -- Symlinking: /home/ubuntu/U26LLPi5/ros2_ws/install/turtlebot4_msgs/include/turtlebot4_msgs/turtlebot4_msgs/msg/detail/user_led__type_support.h
+[29.507s] -- Symlinking: /home/ubuntu/U26LLPi5/ros2_ws/install/turtlebot4_msgs/include/turtlebot4_msgs/turtlebot4_msgs/msg/rosidl_generator_c__visibility_control.h
+[29.523s] -- Symlinking: /home/ubuntu/U26LLPi5/ros2_ws/install/turtlebot4_msgs/include/turtlebot4_msgs/turtlebot4_msgs/msg/user_button.h
+[29.542s] -- Symlinking: /home/ubuntu/U26LLPi5/ros2_ws/install/turtlebot4_msgs/include/turtlebot4_msgs/turtlebot4_msgs/msg/user_display.h
+[29.562s] -- Symlinking: /home/ubuntu/U26LLPi5/ros2_ws/install/turtlebot4_msgs/include/turtlebot4_msgs/turtlebot4_msgs/msg/user_led.h
+[29.581s] -- Symlinking: /home/ubuntu/U26LLPi5/ros2_ws/install/turtlebot4_msgs/share/turtlebot4_msgs/environment/library_path.sh
+[29.600s] -- Symlinking: /home/ubuntu/U26LLPi5/ros2_ws/install/turtlebot4_msgs/share/turtlebot4_msgs/environment/library_path.dsv
+[29.619s] -- Symlinking: /home/ubuntu/U26LLPi5/ros2_ws/install/turtlebot4_msgs/include/turtlebot4_msgs/turtlebot4_msgs/msg/detail/user_button__rosidl_typesupport_fastrtps_c.h
+[29.638s] -- Symlinking: /home/ubuntu/U26LLPi5/ros2_ws/install/turtlebot4_msgs/include/turtlebot4_msgs/turtlebot4_msgs/msg/detail/user_display__rosidl_typesupport_fastrtps_c.h
+[29.659s] -- Symlinking: /home/ubuntu/U26LLPi5/ros2_ws/install/turtlebot4_msgs/include/turtlebot4_msgs/turtlebot4_msgs/msg/detail/user_led__rosidl_typesupport_fastrtps_c.h
+[29.677s] -- Symlinking: /home/ubuntu/U26LLPi5/ros2_ws/install/turtlebot4_msgs/include/turtlebot4_msgs/turtlebot4_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[29.695s] -- Symlinking: /home/ubuntu/U26LLPi5/ros2_ws/install/turtlebot4_msgs/include/turtlebot4_msgs/turtlebot4_msgs/msg/detail/user_button__rosidl_typesupport_introspection_c.h
+[29.714s] -- Symlinking: /home/ubuntu/U26LLPi5/ros2_ws/install/turtlebot4_msgs/include/turtlebot4_msgs/turtlebot4_msgs/msg/detail/user_display__rosidl_typesupport_introspection_c.h
+[29.733s] -- Symlinking: /home/ubuntu/U26LLPi5/ros2_ws/install/turtlebot4_msgs/include/turtlebot4_msgs/turtlebot4_msgs/msg/detail/user_led__rosidl_typesupport_introspection_c.h
+[29.750s] -- Symlinking: /home/ubuntu/U26LLPi5/ros2_ws/install/turtlebot4_msgs/include/turtlebot4_msgs/turtlebot4_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[29.765s] -- Symlinking: /home/ubuntu/U26LLPi5/ros2_ws/install/turtlebot4_msgs/include/turtlebot4_msgs/turtlebot4_msgs/msg/detail/user_button__builder.hpp
+[29.780s] -- Symlinking: /home/ubuntu/U26LLPi5/ros2_ws/install/turtlebot4_msgs/include/turtlebot4_msgs/turtlebot4_msgs/msg/detail/user_button__struct.hpp
+[29.799s] -- Symlinking: /home/ubuntu/U26LLPi5/ros2_ws/install/turtlebot4_msgs/include/turtlebot4_msgs/turtlebot4_msgs/msg/detail/user_button__traits.hpp
+[29.814s] -- Symlinking: /home/ubuntu/U26LLPi5/ros2_ws/install/turtlebot4_msgs/include/turtlebot4_msgs/turtlebot4_msgs/msg/detail/user_button__type_support.hpp
+[29.834s] -- Symlinking: /home/ubuntu/U26LLPi5/ros2_ws/install/turtlebot4_msgs/include/turtlebot4_msgs/turtlebot4_msgs/msg/detail/user_display__builder.hpp
+[29.854s] -- Symlinking: /home/ubuntu/U26LLPi5/ros2_ws/install/turtlebot4_msgs/include/turtlebot4_msgs/turtlebot4_msgs/msg/detail/user_display__struct.hpp
+[29.873s] -- Symlinking: /home/ubuntu/U26LLPi5/ros2_ws/install/turtlebot4_msgs/include/turtlebot4_msgs/turtlebot4_msgs/msg/detail/user_display__traits.hpp
+[29.890s] -- Symlinking: /home/ubuntu/U26LLPi5/ros2_ws/install/turtlebot4_msgs/include/turtlebot4_msgs/turtlebot4_msgs/msg/detail/user_display__type_support.hpp
+[29.905s] -- Symlinking: /home/ubuntu/U26LLPi5/ros2_ws/install/turtlebot4_msgs/include/turtlebot4_msgs/turtlebot4_msgs/msg/detail/user_led__builder.hpp
+[29.921s] -- Symlinking: /home/ubuntu/U26LLPi5/ros2_ws/install/turtlebot4_msgs/include/turtlebot4_msgs/turtlebot4_msgs/msg/detail/user_led__struct.hpp
+[29.938s] -- Symlinking: /home/ubuntu/U26LLPi5/ros2_ws/install/turtlebot4_msgs/include/turtlebot4_msgs/turtlebot4_msgs/msg/detail/user_led__traits.hpp
+[29.957s] -- Symlinking: /home/ubuntu/U26LLPi5/ros2_ws/install/turtlebot4_msgs/include/turtlebot4_msgs/turtlebot4_msgs/msg/detail/user_led__type_support.hpp
+[29.976s] -- Symlinking: /home/ubuntu/U26LLPi5/ros2_ws/install/turtlebot4_msgs/include/turtlebot4_msgs/turtlebot4_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[29.992s] -- Symlinking: /home/ubuntu/U26LLPi5/ros2_ws/install/turtlebot4_msgs/include/turtlebot4_msgs/turtlebot4_msgs/msg/user_button.hpp
+[30.010s] -- Symlinking: /home/ubuntu/U26LLPi5/ros2_ws/install/turtlebot4_msgs/include/turtlebot4_msgs/turtlebot4_msgs/msg/user_display.hpp
+[30.031s] -- Symlinking: /home/ubuntu/U26LLPi5/ros2_ws/install/turtlebot4_msgs/include/turtlebot4_msgs/turtlebot4_msgs/msg/user_led.hpp
+[30.044s] -- Symlinking: /home/ubuntu/U26LLPi5/ros2_ws/install/turtlebot4_msgs/include/turtlebot4_msgs/turtlebot4_msgs/msg/detail/user_button__rosidl_typesupport_fastrtps_cpp.hpp
+[30.063s] -- Symlinking: /home/ubuntu/U26LLPi5/ros2_ws/install/turtlebot4_msgs/include/turtlebot4_msgs/turtlebot4_msgs/msg/detail/user_display__rosidl_typesupport_fastrtps_cpp.hpp
+[30.082s] -- Symlinking: /home/ubuntu/U26LLPi5/ros2_ws/install/turtlebot4_msgs/include/turtlebot4_msgs/turtlebot4_msgs/msg/detail/user_led__rosidl_typesupport_fastrtps_cpp.hpp
+[30.099s] -- Symlinking: /home/ubuntu/U26LLPi5/ros2_ws/install/turtlebot4_msgs/include/turtlebot4_msgs/turtlebot4_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[30.120s] -- Symlinking: /home/ubuntu/U26LLPi5/ros2_ws/install/turtlebot4_msgs/include/turtlebot4_msgs/turtlebot4_msgs/msg/detail/user_button__rosidl_typesupport_introspection_cpp.hpp
+[30.136s] -- Symlinking: /home/ubuntu/U26LLPi5/ros2_ws/install/turtlebot4_msgs/include/turtlebot4_msgs/turtlebot4_msgs/msg/detail/user_display__rosidl_typesupport_introspection_cpp.hpp
+[30.155s] -- Symlinking: /home/ubuntu/U26LLPi5/ros2_ws/install/turtlebot4_msgs/include/turtlebot4_msgs/turtlebot4_msgs/msg/detail/user_led__rosidl_typesupport_introspection_cpp.hpp
+[30.170s] -- Symlinking: /home/ubuntu/U26LLPi5/ros2_ws/install/turtlebot4_msgs/share/turtlebot4_msgs/environment/pythonpath.sh
+[30.186s] -- Symlinking: /home/ubuntu/U26LLPi5/ros2_ws/install/turtlebot4_msgs/share/turtlebot4_msgs/environment/pythonpath.dsv
+[30.203s] -- Symlinking: /home/ubuntu/U26LLPi5/ros2_ws/install/turtlebot4_msgs/lib/python3.14/site-packages/turtlebot4_msgs/turtlebot4_msgs_s__rosidl_typesupport_fastrtps_c.so
+[30.223s] -- Symlinking: /home/ubuntu/U26LLPi5/ros2_ws/install/turtlebot4_msgs/lib/python3.14/site-packages/turtlebot4_msgs/turtlebot4_msgs_s__rosidl_typesupport_introspection_c.so
+[30.242s] -- Symlinking: /home/ubuntu/U26LLPi5/ros2_ws/install/turtlebot4_msgs/lib/python3.14/site-packages/turtlebot4_msgs/turtlebot4_msgs_s__rosidl_typesupport_c.so
+[30.263s] -- Symlinking: /home/ubuntu/U26LLPi5/ros2_ws/install/turtlebot4_msgs/share/ament_index/resource_index/rust_packages/turtlebot4_msgs
+[30.279s] -- Symlinking: /home/ubuntu/U26LLPi5/ros2_ws/install/turtlebot4_msgs/share/turtlebot4_msgs/rust/Cargo.toml
+[30.299s] -- Symlinking: /home/ubuntu/U26LLPi5/ros2_ws/install/turtlebot4_msgs/share/turtlebot4_msgs/rust/build.rs
+[30.317s] -- Symlinking: /home/ubuntu/U26LLPi5/ros2_ws/install/turtlebot4_msgs/share/turtlebot4_msgs/rust/src/lib.rs
+[30.337s] -- Symlinking: /home/ubuntu/U26LLPi5/ros2_ws/install/turtlebot4_msgs/share/turtlebot4_msgs/rust/src/msg.rs
+[30.354s] -- Symlinking: /home/ubuntu/U26LLPi5/ros2_ws/install/turtlebot4_msgs/share/turtlebot4_msgs/rust/src/msg/rmw.rs
+[30.375s] -- Symlinking: /home/ubuntu/U26LLPi5/ros2_ws/install/turtlebot4_msgs/share/turtlebot4_msgs/msg/UserLed.idl
+[30.394s] -- Symlinking: /home/ubuntu/U26LLPi5/ros2_ws/install/turtlebot4_msgs/share/turtlebot4_msgs/msg/UserButton.idl
+[30.409s] -- Symlinking: /home/ubuntu/U26LLPi5/ros2_ws/install/turtlebot4_msgs/share/turtlebot4_msgs/msg/UserDisplay.idl
+[30.428s] -- Symlinking: /home/ubuntu/U26LLPi5/ros2_ws/install/turtlebot4_msgs/share/turtlebot4_msgs/msg/UserLed.msg
+[30.447s] -- Symlinking: /home/ubuntu/U26LLPi5/ros2_ws/install/turtlebot4_msgs/share/turtlebot4_msgs/msg/UserButton.msg
+[30.470s] -- Symlinking: /home/ubuntu/U26LLPi5/ros2_ws/install/turtlebot4_msgs/share/turtlebot4_msgs/msg/UserDisplay.msg
+[30.486s] -- Symlinking: /home/ubuntu/U26LLPi5/ros2_ws/install/turtlebot4_msgs/share/ament_index/resource_index/package_run_dependencies/turtlebot4_msgs
+[30.506s] -- Symlinking: /home/ubuntu/U26LLPi5/ros2_ws/install/turtlebot4_msgs/share/ament_index/resource_index/parent_prefix_path/turtlebot4_msgs
+[30.526s] -- Symlinking: /home/ubuntu/U26LLPi5/ros2_ws/install/turtlebot4_msgs/share/turtlebot4_msgs/environment/ament_prefix_path.sh
+[30.545s] -- Symlinking: /home/ubuntu/U26LLPi5/ros2_ws/install/turtlebot4_msgs/share/turtlebot4_msgs/environment/ament_prefix_path.dsv
+[30.568s] -- Symlinking: /home/ubuntu/U26LLPi5/ros2_ws/install/turtlebot4_msgs/share/turtlebot4_msgs/environment/path.sh
+[30.587s] -- Symlinking: /home/ubuntu/U26LLPi5/ros2_ws/install/turtlebot4_msgs/share/turtlebot4_msgs/environment/path.dsv
+[30.605s] -- Symlinking: /home/ubuntu/U26LLPi5/ros2_ws/install/turtlebot4_msgs/share/turtlebot4_msgs/local_setup.bash
+[30.625s] -- Symlinking: /home/ubuntu/U26LLPi5/ros2_ws/install/turtlebot4_msgs/share/turtlebot4_msgs/local_setup.fish
+[30.645s] -- Symlinking: /home/ubuntu/U26LLPi5/ros2_ws/install/turtlebot4_msgs/share/turtlebot4_msgs/local_setup.sh
+[30.668s] -- Symlinking: /home/ubuntu/U26LLPi5/ros2_ws/install/turtlebot4_msgs/share/turtlebot4_msgs/local_setup.zsh
+[30.684s] -- Symlinking: /home/ubuntu/U26LLPi5/ros2_ws/install/turtlebot4_msgs/share/turtlebot4_msgs/local_setup.dsv
+[30.703s] -- Symlinking: /home/ubuntu/U26LLPi5/ros2_ws/install/turtlebot4_msgs/share/turtlebot4_msgs/package.dsv
+[30.723s] -- Symlinking: /home/ubuntu/U26LLPi5/ros2_ws/install/turtlebot4_msgs/share/ament_index/resource_index/packages/turtlebot4_msgs
+[30.746s] -- Symlinking: /home/ubuntu/U26LLPi5/ros2_ws/install/turtlebot4_msgs/lib/python3.14/site-packages/turtlebot4_msgs-2.1.1-py3.14.egg-info/PKG-INFO
+[30.765s] -- Symlinking: /home/ubuntu/U26LLPi5/ros2_ws/install/turtlebot4_msgs/lib/python3.14/site-packages/turtlebot4_msgs-2.1.1-py3.14.egg-info/SOURCES.txt
+[30.785s] -- Symlinking: /home/ubuntu/U26LLPi5/ros2_ws/install/turtlebot4_msgs/lib/python3.14/site-packages/turtlebot4_msgs-2.1.1-py3.14.egg-info/dependency_links.txt
+[30.802s] -- Symlinking: /home/ubuntu/U26LLPi5/ros2_ws/install/turtlebot4_msgs/lib/python3.14/site-packages/turtlebot4_msgs-2.1.1-py3.14.egg-info/top_level.txt
+[30.823s] -- Symlinking: /home/ubuntu/U26LLPi5/ros2_ws/install/turtlebot4_msgs/lib/python3.14/site-packages/turtlebot4_msgs/__init__.py
+[30.842s] -- Symlinking: /home/ubuntu/U26LLPi5/ros2_ws/install/turtlebot4_msgs/lib/python3.14/site-packages/turtlebot4_msgs/_turtlebot4_msgs_s.ep.rosidl_typesupport_c.c
+[30.861s] -- Symlinking: /home/ubuntu/U26LLPi5/ros2_ws/install/turtlebot4_msgs/lib/python3.14/site-packages/turtlebot4_msgs/_turtlebot4_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[30.880s] -- Symlinking: /home/ubuntu/U26LLPi5/ros2_ws/install/turtlebot4_msgs/lib/python3.14/site-packages/turtlebot4_msgs/_turtlebot4_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[30.897s] -- Symlinking: /home/ubuntu/U26LLPi5/ros2_ws/install/turtlebot4_msgs/lib/python3.14/site-packages/turtlebot4_msgs/msg/__init__.py
+[30.917s] -- Symlinking: /home/ubuntu/U26LLPi5/ros2_ws/install/turtlebot4_msgs/lib/python3.14/site-packages/turtlebot4_msgs/msg/_user_button.py
+[30.932s] -- Symlinking: /home/ubuntu/U26LLPi5/ros2_ws/install/turtlebot4_msgs/lib/python3.14/site-packages/turtlebot4_msgs/msg/_user_button_s.c
+[30.948s] -- Symlinking: /home/ubuntu/U26LLPi5/ros2_ws/install/turtlebot4_msgs/lib/python3.14/site-packages/turtlebot4_msgs/msg/_user_display.py
+[30.965s] -- Symlinking: /home/ubuntu/U26LLPi5/ros2_ws/install/turtlebot4_msgs/lib/python3.14/site-packages/turtlebot4_msgs/msg/_user_display_s.c
+[30.983s] -- Symlinking: /home/ubuntu/U26LLPi5/ros2_ws/install/turtlebot4_msgs/lib/python3.14/site-packages/turtlebot4_msgs/msg/_user_led.py
+[30.999s] -- Symlinking: /home/ubuntu/U26LLPi5/ros2_ws/install/turtlebot4_msgs/lib/python3.14/site-packages/turtlebot4_msgs/msg/_user_led_s.c
+[31.019s] -- Symlinking: /home/ubuntu/U26LLPi5/ros2_ws/install/turtlebot4_msgs/lib/python3.14/site-packages/turtlebot4_msgs/py.typed
+[31.037s] -- Up-to-date symlink: /home/ubuntu/U26LLPi5/ros2_ws/install/turtlebot4_msgs/lib/python3.14/site-packages/turtlebot4_msgs/turtlebot4_msgs_s__rosidl_typesupport_c.so
+[31.041s] -- Up-to-date symlink: /home/ubuntu/U26LLPi5/ros2_ws/install/turtlebot4_msgs/lib/python3.14/site-packages/turtlebot4_msgs/turtlebot4_msgs_s__rosidl_typesupport_fastrtps_c.so
+[31.041s] -- Up-to-date symlink: /home/ubuntu/U26LLPi5/ros2_ws/install/turtlebot4_msgs/lib/python3.14/site-packages/turtlebot4_msgs/turtlebot4_msgs_s__rosidl_typesupport_introspection_c.so
+[31.042s] -- Symlinking: /home/ubuntu/U26LLPi5/ros2_ws/install/turtlebot4_msgs/share/turtlebot4_msgs/cmake/rosidl_cmake-extras.cmake
+[31.059s] -- Symlinking: /home/ubuntu/U26LLPi5/ros2_ws/install/turtlebot4_msgs/share/turtlebot4_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[31.078s] -- Symlinking: /home/ubuntu/U26LLPi5/ros2_ws/install/turtlebot4_msgs/share/turtlebot4_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[31.096s] -- Symlinking: /home/ubuntu/U26LLPi5/ros2_ws/install/turtlebot4_msgs/share/turtlebot4_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[31.114s] -- Symlinking: /home/ubuntu/U26LLPi5/ros2_ws/install/turtlebot4_msgs/share/turtlebot4_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[31.129s] -- Symlinking: /home/ubuntu/U26LLPi5/ros2_ws/install/turtlebot4_msgs/share/turtlebot4_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[31.148s] -- Symlinking: /home/ubuntu/U26LLPi5/ros2_ws/install/turtlebot4_msgs/share/turtlebot4_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[31.166s] -- Symlinking: /home/ubuntu/U26LLPi5/ros2_ws/install/turtlebot4_msgs/share/turtlebot4_msgs/cmake/rosidl_cmake_aggregate_target-extras.cmake
+[31.185s] -- Symlinking: /home/ubuntu/U26LLPi5/ros2_ws/install/turtlebot4_msgs/share/turtlebot4_msgs/cmake/turtlebot4_msgsConfig.cmake
+[31.202s] -- Symlinking: /home/ubuntu/U26LLPi5/ros2_ws/install/turtlebot4_msgs/share/turtlebot4_msgs/cmake/turtlebot4_msgsConfig-version.cmake
+[31.220s] -- Symlinking: /home/ubuntu/U26LLPi5/ros2_ws/install/turtlebot4_msgs/share/turtlebot4_msgs/package.xml
+[31.238s] -- Installing: /home/ubuntu/U26LLPi5/ros2_ws/install/turtlebot4_msgs/lib/libturtlebot4_msgs__rosidl_generator_c.so
+[31.239s] -- Set non-toolchain portion of runtime path of "/home/ubuntu/U26LLPi5/ros2_ws/install/turtlebot4_msgs/lib/libturtlebot4_msgs__rosidl_generator_c.so" to ""
+[31.239s] -- Installing: /home/ubuntu/U26LLPi5/ros2_ws/install/turtlebot4_msgs/lib/libturtlebot4_msgs__rosidl_typesupport_fastrtps_c.so
+[31.239s] -- Set non-toolchain portion of runtime path of "/home/ubuntu/U26LLPi5/ros2_ws/install/turtlebot4_msgs/lib/libturtlebot4_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[31.240s] -- Installing: /home/ubuntu/U26LLPi5/ros2_ws/install/turtlebot4_msgs/lib/libturtlebot4_msgs__rosidl_typesupport_introspection_c.so
+[31.240s] -- Set non-toolchain portion of runtime path of "/home/ubuntu/U26LLPi5/ros2_ws/install/turtlebot4_msgs/lib/libturtlebot4_msgs__rosidl_typesupport_introspection_c.so" to ""
+[31.240s] -- Installing: /home/ubuntu/U26LLPi5/ros2_ws/install/turtlebot4_msgs/lib/libturtlebot4_msgs__rosidl_typesupport_c.so
+[31.241s] -- Set non-toolchain portion of runtime path of "/home/ubuntu/U26LLPi5/ros2_ws/install/turtlebot4_msgs/lib/libturtlebot4_msgs__rosidl_typesupport_c.so" to ""
+[31.241s] -- Installing: /home/ubuntu/U26LLPi5/ros2_ws/install/turtlebot4_msgs/lib/libturtlebot4_msgs__rosidl_typesupport_fastrtps_cpp.so
+[31.241s] -- Set non-toolchain portion of runtime path of "/home/ubuntu/U26LLPi5/ros2_ws/install/turtlebot4_msgs/lib/libturtlebot4_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[31.241s] -- Installing: /home/ubuntu/U26LLPi5/ros2_ws/install/turtlebot4_msgs/lib/libturtlebot4_msgs__rosidl_typesupport_introspection_cpp.so
+[31.242s] -- Set non-toolchain portion of runtime path of "/home/ubuntu/U26LLPi5/ros2_ws/install/turtlebot4_msgs/lib/libturtlebot4_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[31.242s] -- Installing: /home/ubuntu/U26LLPi5/ros2_ws/install/turtlebot4_msgs/lib/libturtlebot4_msgs__rosidl_typesupport_cpp.so
+[31.242s] -- Set non-toolchain portion of runtime path of "/home/ubuntu/U26LLPi5/ros2_ws/install/turtlebot4_msgs/lib/libturtlebot4_msgs__rosidl_typesupport_cpp.so" to ""
+[31.243s] -- Installing: /home/ubuntu/U26LLPi5/ros2_ws/install/turtlebot4_msgs/lib/libturtlebot4_msgs__rosidl_generator_py.so
+[31.243s] -- Set non-toolchain portion of runtime path of "/home/ubuntu/U26LLPi5/ros2_ws/install/turtlebot4_msgs/lib/libturtlebot4_msgs__rosidl_generator_py.so" to ""
+[31.243s] -- Installing: /home/ubuntu/U26LLPi5/ros2_ws/install/turtlebot4_msgs/share/turtlebot4_msgs/cmake/export_turtlebot4_msgs__rosidl_generator_cExport.cmake
+[31.244s] -- Installing: /home/ubuntu/U26LLPi5/ros2_ws/install/turtlebot4_msgs/share/turtlebot4_msgs/cmake/export_turtlebot4_msgs__rosidl_generator_cExport-noconfig.cmake
+[31.244s] -- Installing: /home/ubuntu/U26LLPi5/ros2_ws/install/turtlebot4_msgs/share/turtlebot4_msgs/cmake/export_turtlebot4_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[31.244s] -- Installing: /home/ubuntu/U26LLPi5/ros2_ws/install/turtlebot4_msgs/share/turtlebot4_msgs/cmake/export_turtlebot4_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[31.244s] -- Installing: /home/ubuntu/U26LLPi5/ros2_ws/install/turtlebot4_msgs/share/turtlebot4_msgs/cmake/turtlebot4_msgs__rosidl_typesupport_introspection_cExport.cmake
+[31.244s] -- Installing: /home/ubuntu/U26LLPi5/ros2_ws/install/turtlebot4_msgs/share/turtlebot4_msgs/cmake/turtlebot4_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[31.245s] -- Installing: /home/ubuntu/U26LLPi5/ros2_ws/install/turtlebot4_msgs/share/turtlebot4_msgs/cmake/turtlebot4_msgs__rosidl_typesupport_cExport.cmake
+[31.245s] -- Installing: /home/ubuntu/U26LLPi5/ros2_ws/install/turtlebot4_msgs/share/turtlebot4_msgs/cmake/turtlebot4_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[31.245s] -- Installing: /home/ubuntu/U26LLPi5/ros2_ws/install/turtlebot4_msgs/share/turtlebot4_msgs/cmake/export_turtlebot4_msgs__rosidl_generator_cppExport.cmake
+[31.246s] -- Installing: /home/ubuntu/U26LLPi5/ros2_ws/install/turtlebot4_msgs/share/turtlebot4_msgs/cmake/export_turtlebot4_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[31.246s] -- Installing: /home/ubuntu/U26LLPi5/ros2_ws/install/turtlebot4_msgs/share/turtlebot4_msgs/cmake/export_turtlebot4_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[31.246s] -- Installing: /home/ubuntu/U26LLPi5/ros2_ws/install/turtlebot4_msgs/share/turtlebot4_msgs/cmake/turtlebot4_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[31.246s] -- Installing: /home/ubuntu/U26LLPi5/ros2_ws/install/turtlebot4_msgs/share/turtlebot4_msgs/cmake/turtlebot4_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[31.247s] -- Installing: /home/ubuntu/U26LLPi5/ros2_ws/install/turtlebot4_msgs/share/turtlebot4_msgs/cmake/turtlebot4_msgs__rosidl_typesupport_cppExport.cmake
+[31.247s] -- Installing: /home/ubuntu/U26LLPi5/ros2_ws/install/turtlebot4_msgs/share/turtlebot4_msgs/cmake/turtlebot4_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[31.247s] -- Installing: /home/ubuntu/U26LLPi5/ros2_ws/install/turtlebot4_msgs/share/turtlebot4_msgs/cmake/export_turtlebot4_msgs__rosidl_generator_pyExport.cmake
+[31.247s] -- Installing: /home/ubuntu/U26LLPi5/ros2_ws/install/turtlebot4_msgs/share/turtlebot4_msgs/cmake/export_turtlebot4_msgs__rosidl_generator_pyExport-noconfig.cmake
+[31.371s] Listing '/home/ubuntu/U26LLPi5/ros2_ws/install/turtlebot4_msgs/lib/python3.14/site-packages/turtlebot4_msgs'...
+[31.372s] Compiling '/home/ubuntu/U26LLPi5/ros2_ws/install/turtlebot4_msgs/lib/python3.14/site-packages/turtlebot4_msgs/__init__.py'...
+[31.372s] Listing '/home/ubuntu/U26LLPi5/ros2_ws/install/turtlebot4_msgs/lib/python3.14/site-packages/turtlebot4_msgs/msg'...
+[31.372s] Compiling '/home/ubuntu/U26LLPi5/ros2_ws/install/turtlebot4_msgs/lib/python3.14/site-packages/turtlebot4_msgs/msg/__init__.py'...
+[31.375s] Compiling '/home/ubuntu/U26LLPi5/ros2_ws/install/turtlebot4_msgs/lib/python3.14/site-packages/turtlebot4_msgs/msg/_user_button.py'...
+[31.375s] Compiling '/home/ubuntu/U26LLPi5/ros2_ws/install/turtlebot4_msgs/lib/python3.14/site-packages/turtlebot4_msgs/msg/_user_display.py'...
+[31.375s] Compiling '/home/ubuntu/U26LLPi5/ros2_ws/install/turtlebot4_msgs/lib/python3.14/site-packages/turtlebot4_msgs/msg/_user_led.py'...
+[31.406s] Invoked command in '/home/ubuntu/U26LLPi5/ros2_ws/build/turtlebot4_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ubuntu/U26LLPi5/ros2_ws/build/turtlebot4_msgs
